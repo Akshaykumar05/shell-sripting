@@ -39,3 +39,31 @@ Again run the script, it should be working now.
 ```
    
 ![image](https://github.com/user-attachments/assets/4c2ceab2-b68d-49cd-991a-a0c0d25a8935)
+
+### Comments:
+1. Single line comment
+* Using #
+```
+vim 02_comment.sh
+```
+
+<img width="383" alt="image" src="https://github.com/user-attachments/assets/e8d2718f-91fe-4b95-91f7-1fb6f0c208cc" />
+
+2. Multiline comment
+* Using <<comment
+* Edit the script file 
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/21d6ea05-d312-40cd-be5e-10a77be0aafe" />
+
+* And run the file
+```
+bash 02_comment.sh
+```
+<img width="523" alt="image" src="https://github.com/user-attachments/assets/9b0e2fc2-e469-408e-b8da-840615f853a9" />
+
+### What are Variables
+
+<img width="551" alt="image" src="https://github.com/user-attachments/assets/c2d05add-bed0-4c71-9e16-263d58c8792f" />
+
+<img width="458" alt="image" src="https://github.com/user-attachments/assets/d5255690-798a-4b72-98b8-c662bb9d6e77" />
+
+
