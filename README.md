@@ -71,3 +71,15 @@ Now lets add some more same variable in the file e.i name
 <img width="584" alt="image" src="https://github.com/user-attachments/assets/0c4d8046-5f55-4546-a5d5-b83a0f19f494" />
 
 <img width="544" alt="image" src="https://github.com/user-attachments/assets/9426f9cd-6277-40bb-87a0-10e2928cc900" />
+
+* Use variable to store the output of a command
+
+```
+vim 03_varcode.sh
+```
+Add the hostname value
+
+<img width="610" alt="image" src="https://github.com/user-attachments/assets/35c97db4-e051-48a3-82db-d9645f18118e" />
+
+<img width="485" alt="image" src="https://github.com/user-attachments/assets/a22ad1b4-206a-45d7-a6f7-49bd147d70bf" />
+
