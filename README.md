@@ -61,9 +61,13 @@ bash 02_comment.sh
 <img width="523" alt="image" src="https://github.com/user-attachments/assets/9b0e2fc2-e469-408e-b8da-840615f853a9" />
 
 ### What are Variables
-
-<img width="551" alt="image" src="https://github.com/user-attachments/assets/c2d05add-bed0-4c71-9e16-263d58c8792f" />
+We will add some variables, and will run the script
 
 <img width="458" alt="image" src="https://github.com/user-attachments/assets/d5255690-798a-4b72-98b8-c662bb9d6e77" />
 
+<img width="551" alt="image" src="https://github.com/user-attachments/assets/c2d05add-bed0-4c71-9e16-263d58c8792f" />
 
+Now lets add some more same variable in the file e.i name
+<img width="584" alt="image" src="https://github.com/user-attachments/assets/0c4d8046-5f55-4546-a5d5-b83a0f19f494" />
+
+<img width="544" alt="image" src="https://github.com/user-attachments/assets/9426f9cd-6277-40bb-87a0-10e2928cc900" />
