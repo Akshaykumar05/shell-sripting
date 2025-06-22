@@ -15,11 +15,13 @@ vim 01_basic.sh
 echo "Hello Buddy"
 ```
 * Run the script using following commands:
+1. Direct using bash
 ```
 bash 01_basic.sh
 ```
 <img width="536" alt="image" src="https://github.com/user-attachments/assets/e6abbfcc-b557-42a7-92ce-c95d3f33964e" />
 
+2. Run the script at current location
 ```
 ./01_basic.sh
 ```
@@ -30,3 +32,10 @@ chmod +x -1_basic.sh
 Again run the script, it should be working now.
 
 <img width="603" alt="image" src="https://github.com/user-attachments/assets/990e1105-fda5-47c8-bf4e-7e7c3d809198" />
+
+3. Run the script using path
+```
+/home/akshay/myscript/01_basic.sh
+```
+   
+![image](https://github.com/user-attachments/assets/4c2ceab2-b68d-49cd-991a-a0c0d25a8935)
