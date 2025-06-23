@@ -127,5 +127,20 @@ Add the hostname value
 
    <img width="577" alt="image" src="https://github.com/user-attachments/assets/090cbcf0-3a12-4a3c-8335-3bdf6cd47757" />
 
+ * How to get length of array?
+ - Add this line in the script
+   ```echo "${#myArray[*]}"```
+
+   <img width="576" alt="image" src="https://github.com/user-attachments/assets/f4661f2d-e562-49a0-994f-5d79bc476a3e" />
+
+   <img width="649" alt="image" src="https://github.com/user-attachments/assets/996c2f8c-7bd2-46b8-812e-d48ea846186b" />
+
+  * How to get specific values?
+    ```echo "${myArray[*]:1}"```
+    ```echo "${myArray[*]:1:2}"```
+
+   <img width="601" alt="image" src="https://github.com/user-attachments/assets/640bc618-b7d5-4c60-9f14-f0282409e070" />
+
+   <img width="671" alt="image" src="https://github.com/user-attachments/assets/c6058d3b-ab28-416f-9740-ec15c491ba1f" />
 
    
