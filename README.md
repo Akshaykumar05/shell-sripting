@@ -95,5 +95,37 @@ Add the hostname value
 
   <img width="610" alt="image" src="https://github.com/user-attachments/assets/339dc45f-4f9c-4153-8e2a-9776c67b4a76" />
 
-  
+### Array
+* How to get an array?
+  ```myArray=(1 2 Hello "Hey man")```
 
+* How to get value from an array?
+  ```
+  echo "${myArray[0]}"
+  echo "${myArray[1]}"
+  ```
+ * Now create and edit a script file
+   ```
+   vim 05_arrays.sh
+   ```
+   <img width="494" alt="image" src="https://github.com/user-attachments/assets/d4764807-3694-4fa9-9392-ead7bfd3a596" />
+
+ * We have given the value to an array: numbers, string, multi string. Now run the script and get the value in the 3rd index as below.
+   ```
+   bash 05_arrays.sh
+   ```
+
+   <img width="521" alt="image" src="https://github.com/user-attachments/assets/d386cc37-1634-43b6-b8a9-8e39110427f1" />
+
+ * To get all the values in the array, edit the script one more line
+   ```
+   echo "All the values in array are ${myArray[*]}"
+   ```
+   <img width="607" alt="image" src="https://github.com/user-attachments/assets/00a9bbef-7d85-4914-9147-775861439538" />
+
+ * Now run the script to retrive all the values.
+
+   <img width="577" alt="image" src="https://github.com/user-attachments/assets/090cbcf0-3a12-4a3c-8335-3bdf6cd47757" />
+
+
+   
