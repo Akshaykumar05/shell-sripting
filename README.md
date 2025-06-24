@@ -146,6 +146,7 @@ Add the hostname value
   6. How to update an array?
 
     ```maArray+=( New 20 30)```
+
     
     <img width="526" alt="image" src="https://github.com/user-attachments/assets/04042969-2f2c-49f5-9008-ea238f89866c" />
 
@@ -154,7 +155,9 @@ Add the hostname value
   7. Array: Key-values
      
      ```declare -A myArray```
+     
      ```myArray=( [name]=Akshay [city]=Delhi```
+     
      ```echo "${myArray[Name]}"```
 
      * Now create a new script and edit
@@ -166,4 +169,26 @@ Add the hostname value
 
      <img width="532" alt="image" src="https://github.com/user-attachments/assets/175039e4-4ee8-4992-a28b-8aea3fa4f501" />
 
-   
+   9. String Operations
+      
+      ```myVar="Hello World"```
+      
+      ```length=${#myVar}```
+      
+      ```upper=${X^^}```
+      
+      ```lower=${Y,,}```
+      
+      ```replace=${myVar/world/Buddy}```
+      
+      ```slice=${myVar:6:11}```
+
+      * Create a scrpt and edit
+      ```
+      vim 07_string_ops.sh
+      ```
+      <img width="684" alt="image" src="https://github.com/user-attachments/assets/4956fb49-d20a-48bc-a558-5f68984c24d1" />
+
+
+      <img width="720" alt="image" src="https://github.com/user-attachments/assets/5c8c370d-9336-4c80-acad-0e0d8e162d43" />
+
