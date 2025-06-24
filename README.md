@@ -96,15 +96,15 @@ Add the hostname value
   <img width="610" alt="image" src="https://github.com/user-attachments/assets/339dc45f-4f9c-4153-8e2a-9776c67b4a76" />
 
 ### Array
-* How to get an array?
+1. How to get an array?
   ```myArray=(1 2 Hello "Hey man")```
 
-* How to get value from an array?
+2. How to get value from an array?
   ```
   echo "${myArray[0]}"
   echo "${myArray[1]}"
   ```
- * Now create and edit a script file
+ 3. Now create and edit a script file
    ```
    vim 05_arrays.sh
    ```
@@ -127,7 +127,7 @@ Add the hostname value
 
    <img width="577" alt="image" src="https://github.com/user-attachments/assets/090cbcf0-3a12-4a3c-8335-3bdf6cd47757" />
 
- * How to get length of array?
+ 4. How to get length of array?
  - Add this line in the script
    ```echo "${#myArray[*]}"```
 
@@ -135,12 +135,35 @@ Add the hostname value
 
    <img width="649" alt="image" src="https://github.com/user-attachments/assets/996c2f8c-7bd2-46b8-812e-d48ea846186b" />
 
-  * How to get specific values?
+  5. How to get specific values?
     ```echo "${myArray[*]:1}"```
     ```echo "${myArray[*]:1:2}"```
 
    <img width="601" alt="image" src="https://github.com/user-attachments/assets/640bc618-b7d5-4c60-9f14-f0282409e070" />
 
    <img width="671" alt="image" src="https://github.com/user-attachments/assets/c6058d3b-ab28-416f-9740-ec15c491ba1f" />
+   
+  6. How to update an array?
+
+    ```maArray+=( New 20 30)```
+    
+    <img width="526" alt="image" src="https://github.com/user-attachments/assets/04042969-2f2c-49f5-9008-ea238f89866c" />
+
+    <img width="483" alt="image" src="https://github.com/user-attachments/assets/55e2eb14-cecc-4e6c-9b69-3e164201e379" />
+
+  7. Array: Key-values
+     
+     ```declare -A myArray```
+     ```myArray=( [name]=Akshay [city]=Delhi```
+     ```echo "${myArray[Name]}"```
+
+     * Now create a new script and edit
+       
+     ```
+     vim 06_key-values.sh
+     ```
+     <img width="520" alt="image" src="https://github.com/user-attachments/assets/6d8e6791-8b94-4d03-b0af-fc349fcf4582" />
+
+     <img width="532" alt="image" src="https://github.com/user-attachments/assets/175039e4-4ee8-4992-a28b-8aea3fa4f501" />
 
    
