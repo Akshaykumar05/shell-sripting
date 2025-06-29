@@ -192,3 +192,24 @@ Add the hostname value
 
       <img width="720" alt="image" src="https://github.com/user-attachments/assets/5c8c370d-9336-4c80-acad-0e0d8e162d43" />
 
+
+### User Interaction
+```
+vim 08_user_int.sh
+```
+* Create th script
+
+<img width="347" alt="image" src="https://github.com/user-attachments/assets/dd2f534a-b32d-45da-8f2c-29a496545fc5" />
+ 
+<img width="447" alt="image" src="https://github.com/user-attachments/assets/b698113e-d8a5-4e12-a442-d436d75a932b" />
+
+
+```
+#!/bin/bash
+
+read -p "What is your name?"  name
+echo "Your name is $name"
+```
+```
+bash 08_user_int.sh
+```
