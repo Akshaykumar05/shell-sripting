@@ -213,3 +213,26 @@ echo "Your name is $name"
 ```
 bash 08_user_int.sh
 ```
+
+### Arithmetic Operation
+```
+vim 09_arith_ops.sh
+```
+```
+#!/bin/bash
+
+#Maths Calculation
+
+X=10
+Y=5
+
+let mul=$X*$Y
+echo "$mul"
+
+let sum=$X+$Y
+echo "$sum"
+
+echo "subscription is $(($X-$Y))"
+```
+
+<img width="489" alt="image" src="https://github.com/user-attachments/assets/c77982a1-663f-4b1a-91cb-c290b4f56dd4" />
